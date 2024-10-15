@@ -14,68 +14,145 @@ In today's dynamic gig economy, managing finances can be challenging for freelan
   - [Short Description](#short-description)
   - [Why GigGuard?](#why-gigguard)
   - [Table of Contents](#table-of-contents)
-  - [Rules](#rules)
-    - [Frontend Frameworks and Libraries](#frontend-frameworks-and-libraries)
-    - [Backend and Full-Stack](#backend-and-full-stack)
-    - [CSS and Styling](#css-and-styling)
-    - [State Management](#state-management)
-    - [Database and API](#database-and-api)
-    - [Testing](#testing)
-    - [Build Tools and Development](#build-tools-and-development)
-    - [Language-Specific](#language-specific)
-    - [Other](#other)
+  - [Technology Stack Overview](#technology-stack-overview)
   - [How to Use](#how-to-use)
   - [Contributing](#contributing)
   - [License](#license)
 
-## Rules
+## Technology Stack Overview
 
-### Frontend Frameworks and Libraries
+- **Node.js**
+  - **Description**: A JavaScript runtime built on Chrome's V8 engine that allows you to run JavaScript on the server side.
+  - **Key Features**:
+    - Asynchronous and event-driven architecture.
+    - NPM (Node Package Manager) for package management.
+    - Ideal for building scalable network applications.
 
-- Use React for building user interfaces.
-- Follow the component-driven development paradigm.
-- Utilize hooks for state and lifecycle management.
+- **Next.js 14**
+  - **Description**: A React framework for building server-rendered applications with ease.
+  - **Key Features**:
+    - **App Router**: Introduces nested routes and layouts for better organization.
+    - Automatic code splitting for optimized performance.
+    - Built-in support for API routes.
 
-### Backend and Full-Stack
+- **React**
+  - **Description**: A JavaScript library for building user interfaces, particularly single-page applications.
+  - **Key Features**:
+    - Component-based architecture for reusable UI components.
+    - Virtual DOM for efficient UI updates.
+    - Extensive ecosystem with numerous libraries and tools.
 
-- Implement RESTful API principles.
-- Ensure proper authentication and authorization mechanisms are in place.
-- Use Node.js for server-side development.
+- **Supabase**
+  - **Description**: An open-source alternative to Firebase that provides a backend-as-a-service.
+  - **Key Features**:
+    - Real-time database capabilities using PostgreSQL.
+    - Built-in authentication and authorization.
+    - API auto-generated from your database schema.
 
-### CSS and Styling
+- **Clerk**
+  - **Description**: A user management and authentication service for web applications.
+  - **Key Features**:
+    - Easy integration with existing apps for user sign-in, sign-up, and profile management.
+    - Provides pre-built UI components for user flows.
+    - Supports social login and multi-factor authentication.
 
-- Adopt a CSS-in-JS approach using libraries like styled-components or Emotion.
-- Maintain a consistent design system.
+- **Shadcn UI**
+  - **Description**: A UI component library built for modern React applications.
+  - **Key Features**:
+    - Highly customizable components with a focus on accessibility.
+    - Integration with Tailwind CSS for easy styling.
+    - Component-driven design that enhances reusability.
 
-### State Management
+- **Radix UI**
+  - **Description**: A set of accessible, unstyled components for building high-quality design systems.
+  - **Key Features**:
+    - Provides primitives for building custom components with full control over styles.
+    - Focus on accessibility and usability.
+    - Supports composition and extensibility.
 
-- Leverage Redux or Zustand for global state management.
-- Use local component state for temporary data.
+- **Prisma**
+  - **Description**: An ORM (Object-Relational Mapping) tool for Node.js and TypeScript.
+  - **Key Features**:
+    - Type-safe database queries and migrations.
+    - Integrates seamlessly with various databases (PostgreSQL, MySQL, SQLite, etc.).
+    - Provides a powerful query language (Prisma Client) for database interactions.
 
-### Database and API
+- **React Query**
+  - **Description**: A library for fetching, caching, and synchronizing server state in React applications.
+  - **Key Features**:
+    - Simplifies data fetching logic and state management.
+    - Automatic caching and background updates.
+    - Powerful tools for managing asynchronous data.
 
-- Choose PostgreSQL for relational database needs.
-- Use GraphQL for API queries and mutations.
+- **Axios**
+  - **Description**: A promise-based HTTP client for making requests from the browser and Node.js.
+  - **Key Features**:
+    - Supports request and response interceptors.
+    - Handles JSON data by default.
+    - Easy to configure with global defaults.
 
-### Testing
+- **Vercel**
+  - **Description**: A cloud platform for static sites and serverless functions.
+  - **Key Features**:
+    - Seamless deployment for Next.js applications.
+    - Automatic scaling and global CDN.
+    - Integrated support for serverless functions.
 
-- Write unit tests using Jest and React Testing Library.
-- Implement end-to-end testing with Cypress.
+- **GitHub**
+  - **Description**: A platform for version control and collaborative development.
+  - **Key Features**:
+    - Git repository hosting with version tracking.
+    - Collaboration tools like pull requests and code reviews.
+    - GitHub Actions for CI/CD workflows.
 
-### Build Tools and Development
+- **Jest**
+  - **Description**: A JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
+  - **Key Features**:
+    - Out-of-the-box support for mocking and assertions.
+    - Snapshot testing for UI components.
+    - Easily integrates with other testing libraries.
 
-- Use Webpack for module bundling.
-- Implement ESLint for code linting and Prettier for code formatting.
+- **React Testing Library**
+  - **Description**: A testing utility for React that helps test components with a focus on user behavior.
+  - **Key Features**:
+    - Encourages testing from the user's perspective.
+    - Simple API for rendering components and querying the DOM.
+    - Supports asynchronous queries for handling side effects.
 
-### Language-Specific
+- **Google Analytics**
+  - **Description**: A web analytics service that tracks and reports website traffic.
+  - **Key Features**:
+    - Comprehensive tracking of user interactions.
+    - Customizable dashboards and reporting tools.
+    - Integrates with other Google services for enhanced analysis.
 
-- Follow TypeScript conventions for type safety.
-- Use modern JavaScript features (ES6+).
+- **Mixpanel**
+  - **Description**: An advanced analytics platform for tracking user behavior and engagement.
+  - **Key Features**:
+    - Event-based tracking with deep insights into user actions.
+    - A/B testing and cohort analysis.
+    - Powerful segmentation and filtering options.
 
-### Other
+- **Stripe**
+  - **Description**: A payment processing platform for online businesses.
+  - **Key Features**:
+    - Supports various payment methods and currencies.
+    - Provides subscription billing and invoicing solutions.
+    - Robust API for seamless integration into applications.
 
-- Document code thoroughly and maintain clear comments.
-- Keep dependencies up-to-date and avoid unnecessary bloat.
+- **Plaid**
+  - **Description**: A financial technology service that enables applications to connect with users' bank accounts.
+  - **Key Features**:
+    - Access to users' banking information for payments and transactions.
+    - Easy integration for managing financial data.
+    - Supports various financial products and services.
+
+- **Tailwind CSS**
+  - **Description**: A utility-first CSS framework for building modern user interfaces.
+  - **Key Features**:
+    - Rapid UI development using utility classes.
+    - Highly customizable design system.
+    - Supports responsive design out of the box.
 
 ## How to Use
 
