@@ -1,20 +1,18 @@
-# .cursorrules ![Awesome](https://awesome.re/badge.svg)
-
-![Logo](path/to/logo.png)
+# GigGuard - Personal Finance SaaS for Gig Workers ![Awesome](https://awesome.re/badge.svg)
 
 ## Short Description
 
-.cursorrules is a project aimed at providing a comprehensive set of guidelines and best practices for building robust and scalable applications using modern technologies. It serves as a reference for developers looking to enhance their skills and maintain high standards in their work.
+**GigGuard** is a personal finance platform designed specifically for gig workers and freelancers. It helps you manage your earnings, track expenses, and plan for taxes effortlessly, providing financial clarity and control in a flexible, user-friendly interface. Stay on top of your finances with GigGuard, your all-in-one money management tool.
 
-## Why .cursorrules?
+## Why GigGuard?
 
-In today's fast-paced development environment, it is essential to adhere to established rules and practices to ensure code quality, maintainability, and scalability. .cursorrules offers a structured approach to help developers navigate the complexities of modern software development, fostering a culture of excellence within teams.
+In today's dynamic gig economy, managing finances can be challenging for freelancers and gig workers. GigGuard offers a comprehensive solution that simplifies financial management, ensuring you can focus on your work without financial stress. Our platform provides tailored tools for tracking income, managing expenses, and preparing for taxes, helping you achieve financial clarity and stability. With GigGuard, you gain peace of mind knowing your finances are organized and optimized, empowering you to thrive in your freelance journey.
 
 ## Table of Contents
 
-- [.cursorrules ](#cursorrules-)
+- [GigGuard - Personal Finance SaaS for Gig Workers ](#gigguard---personal-finance-saas-for-gig-workers-)
   - [Short Description](#short-description)
-  - [Why .cursorrules?](#why-cursorrules)
+  - [Why GigGuard?](#why-gigguard)
   - [Table of Contents](#table-of-contents)
   - [Rules](#rules)
     - [Frontend Frameworks and Libraries](#frontend-frameworks-and-libraries)
