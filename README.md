@@ -156,7 +156,56 @@ In today's dynamic gig economy, managing finances can be challenging for freelan
 
 ## How to Use
 
-To get started with .cursorrules, clone the repository and follow the setup instructions provided in the documentation. Implement the guidelines in your projects to maintain high standards.
+1. **Clone the Repository**
+   - Use Git to clone the project repository:
+
+     ```bash
+     git clone https://github.com/your-username/your-repo-name.git
+     ```
+
+   - Navigate to the project directory:
+
+     ```bash
+     cd your-repo-name
+     ```
+
+2. **Install Dependencies**
+   - Install the required dependencies using NPM:
+
+     ```bash
+     npm install
+     ```
+
+3. **Set Up Environment Variables**
+   - Create a `.env.local` file in the root of the project.
+   - Add your environment variables (e.g., database URL, API keys) in this file, based on the template provided in `.env.example`.
+
+4. **Run the Development Server**
+   - Start the development server:
+
+     ```bash
+     npm run dev
+     ```
+
+   - Open your browser and navigate to `http://localhost:3000` to view the application.
+
+5. **Build for Production**
+   - To create a production build, run:
+
+     ```bash
+     npm run build
+     ```
+
+   - After building, you can start the production server with:
+
+     ```bash
+     npm start
+     ```
+
+6. **Deploy Your Application**
+   - Follow your deployment provider’s instructions (e.g., Vercel) to deploy the application. Typically, you would link your GitHub repository and let the provider handle deployments.
+
+By following these steps, you can quickly set up and run the project locally. Make sure to consult the documentation for any specific configurations related to the technologies used in your project.
 
 ## Contributing
 
