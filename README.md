@@ -160,13 +160,13 @@ In today's dynamic gig economy, managing finances can be challenging for freelan
    - Use Git to clone the project repository:
 
      ```bash
-     git clone https://github.com/your-username/your-repo-name.git
+     git clone https://github.com/alexgutscher26/GigGuard.git
      ```
 
    - Navigate to the project directory:
 
      ```bash
-     cd your-repo-name
+     cd gigguard
      ```
 
 2. **Install Dependencies**
@@ -202,15 +202,67 @@ In today's dynamic gig economy, managing finances can be challenging for freelan
      npm start
      ```
 
-6. **Deploy Your Application**
+<!-- 6. **Deploy Your Application**
    - Follow your deployment provider’s instructions (e.g., Vercel) to deploy the application. Typically, you would link your GitHub repository and let the provider handle deployments.
 
-By following these steps, you can quickly set up and run the project locally. Make sure to consult the documentation for any specific configurations related to the technologies used in your project.
+By following these steps, you can quickly set up and run the project locally. Make sure to consult the documentation for any specific configurations related to the technologies used in your project. -->
 
 ## Contributing
 
-We welcome contributions to .cursorrules! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information on how to get involved.
+We welcome contributions to enhance this project! Follow these guidelines to get started:
+
+1. **Create a New Branch**
+   - Before making changes, create a new branch to work on:
+
+     ```bash
+     git checkout -b your-feature-branch-name
+     ```
+
+2. **Make Changes**
+   - Implement your changes or add new features. Be sure to follow the project's coding style and conventions.
+
+3. **Run Tests**
+   - Ensure your changes do not break existing functionality by running the tests:
+
+     ```bash
+     npm test
+     ```
+
+4. **Commit Your Changes**
+   - Stage and commit your changes with a clear and descriptive commit message:
+
+     ```bash
+     git add .
+     git commit -m "Describe your changes"
+     ```
+
+5. **Push Your Branch**
+   - Push your changes to your forked repository:
+
+     ```bash
+     git push origin your-feature-branch-name
+     ```
+
+6. **Open a Pull Request**
+   - Go to the original repository on GitHub and click on the "Pull Requests" tab.
+   - Click "New Pull Request," select your branch, and provide a detailed description of your changes.
+   - Submit the pull request for review.
+
+7. **Engage with the Community**
+   - Monitor your pull request for any feedback or requested changes from the maintainers. Be open to discussion and collaboration.
+
+Thank you for considering contributing to this project! Your efforts are greatly appreciated and help improve the community.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+You are free to use, modify, and distribute this software in accordance with the following terms:
+
+- Permission is granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  
+- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For more details, please refer to the full [MIT License](https://opensource.org/licenses/MIT)
